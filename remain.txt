@@ -1,0 +1,12 @@
+
+show remaining time on new page and cancle alarm option
+stop alarm
+
+validation {
+    not a blank
+    correct format  
+    not a past date using timetoalarm - now
+}
+
+solution for formatting : regular expression  -- i used this
+                                      create date() object and ckeck individually for date year and month,etc..
